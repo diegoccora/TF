@@ -1,0 +1,27 @@
+#fondoinfo{
+    background-color: rgb(250, 245, 239);
+    margin-top: 60px;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px;
+    padding: 20px;
+}
+
+#info h1{
+    font-size:larger;
+}
+
+#info p{
+    font-size:small;
+}
+
+#pie{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}

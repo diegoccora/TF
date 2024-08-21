@@ -1,0 +1,16 @@
+#formulario{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+#imagenprincipal{
+    text-align: center;
+   
+    object-fit: cover;
+}
+#imagenprincipal img{
+    width: 100%;
+    height: 300px;
+}

@@ -1,0 +1,36 @@
+#central{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#central h1{
+    font-size: 30px;
+}
+
+
+#productos img{
+    width: 350px;
+    height: 350px;
+
+}
+
+#productoarriba, #productoabajo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+#productos div{
+    margin: 2px 10px;
+}
+
+
+#productos h2{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+#productos p{
+    color: rgb(153, 152, 152);
+}

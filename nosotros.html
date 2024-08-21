@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="Estilos/cabecera.css">
+    <link rel="stylesheet" href="Estilos/pie.css">
+    <link rel="stylesheet" href="Estilos/nosotros.css">
+    <link rel="stylesheet" href="Estilos/user.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cabecera">
+        <div id="logo">
+            <a href="inicio.html"><img src="Imagenes/Logo.png" width="100px" height="80px"></a>
+        </div>
+        <div id="menu">
+            
+            <a href="inicio.html">Inicio</a>
+            <a href="calzado.html">Calzado</a>
+
+            <div class="dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Deporte
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="deporteH.html">Hombre</a>
+                  <a class="dropdown-item" href="deporteM.html">Mujer</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Selecciones
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="selePeru.html">Perú</a>
+                  <a class="dropdown-item" href="seleArgentina.html">Argentina</a>
+                </div>
+            </div>
+
+            <a href="nosotros.html">Nosotros</a>
+            <a href="unete.html">Únete</a>
+        </div>
+        <form id="search-form" action="/buscar" method="GET">
+            <input type="text" id="search-input" name="q" placeholder="  Buscar">
+        </form>
+        
+        <div id="user" class="dropdown" style="height: 40px;">
+            <img src="Imagenes/user.jpg" alt="" width="25px" height="25px" title="Iniciar sesión" class="dropdown-toggle" data-toggle="dropdown" style="margin-top: 8px;">
+            <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="login.html">Iniciar sesión</a>
+                <a class="dropdown-item" href="admin.html">Admin.</a>
+            </div>
+        </div>
+
+        <div id="buy">
+            <img src="Imagenes/Buy.png" alt="" width="25px" height="25px">
+        </div>
+    </div>
+
+    <div id="quien">
+
+        <img src="Imagenes/Logo xports.png" alt="">
+
+        <div id="quientexto">
+            <h1><b>¿QUIÉNES SOMOS?</b></h1>
+            <p>En Xports, somos una tienda peruana apasionada por el deporte y dedicada a ofrecerte lo mejor en calzado, 
+            ropa deportiva y camisetas de selecciones. Ubicados en la Avenida Siempre Viva 742, nuestro objetivo es 
+            brindarte productos de alta calidad que te acompañen en cada paso de tu aventura deportiva. Creemos en 
+            la importancia de un estilo de vida activo y saludable, y estamos aquí para equiparte con todo lo que 
+            necesitas para alcanzar tus metas. ¡Visítanos y descubre todo lo que tenemos para ofrecerte!</p>
+        </div>
+    </div>
+
+    <div id="historia">
+
+        <div id="historiatexto">
+            <h1><b>NUESTRA HISTORIA</b></h1>
+            <p>Xports nació en 2004, cuando un grupo de amigos apasionados por el deporte decidió abrir una tienda de ropa
+                deportiva en el corazón del centro de Lima. Motivados por la falta de opciones de calidad en el 
+                mercado local, se comprometieron a ofrecer el mejor calzado, ropa deportiva y camisetas de selecciones, 
+                junto con un servicio al cliente excepcional. Es por ello que hoy somos un referente en Perú para los amantes 
+                del deporte,gracias a nuestra dedicación y a la confianza de nuestros clientes.  Actualmente, contamos con 2 
+                tiendas adicionales. Una ubicada en el centro de Cusco y otra en Arequipa.
+                ¡Gracias por ser parte de nuestra historia!</p>
+        </div>
+
+        <img src="Imagenes/Historia.jpg" alt="">
+        
+    </div>
+
+    <div id="tiendas">
+        <h1><b>NUESTRAS TIENDAS</b></h1>
+        <div id="tiendasimg">
+
+            <div id="tiendasimg1">
+                <img src="Imagenes/Lima.jpg" alt="">
+                <h2><b>Lima</b></h2>
+                <p>Av. Siempre Viva 742</p>
+            </div>
+
+            <div id="tiendasimg2">
+                <img src="Imagenes/Cusco.jpg" alt="">
+                <h2><b>Cusco</b></h2>
+                <p>Av. Riverside Drive 1640</p>
+            </div>
+
+            <div id="tiendasimg3">
+                <img src="Imagenes/Arequipa.jpg" alt="">
+                <h2><b>Arequipa</b></h2>
+                <p>Av. Negra Arroyo Lane 308</p>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div id="fondoinfo">
+        <div id="info">
+            <div id="info1">
+                <h1>Productos</h1>
+                <p>
+                    Calzado <br>
+                    Ropa <br>
+                    Accesorios
+                </p>
+            </div>
+
+            <div id="info2">
+                <h1>Selecciones</h1>
+                <p>
+                    Perú <br>
+                    Argentina <br>
+                    Colombia
+                </p>
+            </div>
+
+            <div id="info3">
+                <h1>Soporte</h1>
+                <p>
+                    Centro de ayuda <br>
+                    Contáctanos <br>
+                    Preguntas frecuentes
+                </p>
+            </div>
+
+            <div id="info4">
+                <h1>Síguenos</h1>
+                <a href="https://www.instagram.com/adidaspe/?hl=en" target="_blank"><img id="ig" src="Imagenes/Instagram.png" alt="" width="36px" height="36px"></a>
+                <a href="https://www.facebook.com/adidasoriginals?locale=pt_BR"><img id="fb" src="Imagenes/facebook.png" alt="" width="30px" height="30px"></a>
+                <a href="https://twitter.com/adidas_pe?lang=en"><img id="x" src="Imagenes/x.png" alt="" width="32px" height="32px"></a>
+            </div>
+        </div>
+    </div>
+        <div id="pie">
+            <p>
+                @ 2024 Xports S.A.C, RUC 20245712662. Av. Siempre viva 742, Lima
+            </p>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    
+</body>
+</html>

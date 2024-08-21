@@ -1,0 +1,39 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+#cabecera{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    text-align: left;
+}
+
+#user{
+    padding-left: 20px;
+}
+
+#buy{
+    padding: 20px;
+}
+
+#search-input{
+    border-radius: 10px;
+}
